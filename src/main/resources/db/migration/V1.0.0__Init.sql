@@ -1,0 +1,2 @@
+CREATE TABLE message
+ (id SERIAL PRIMARY KEY, send_date TIMESTAMP, recipient TEXT NOT NULL, content TEXT NOT NULL, status TEXT NOT NULL, channel TEXT NOT NULL)
